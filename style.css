@@ -1,0 +1,203 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #7952b3;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+}
+
+/* HOME */
+#Home {
+    margin: 3rem 0rem;
+}
+
+.intro-div {
+    display: flex;
+    letter-spacing: 0.1rem;
+}
+
+.intro-shadow {
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: -2px 3px 10px 3px rgb(76, 76, 76);
+    background-image: linear-gradient(135deg, pink, white);
+    position: relative;
+    animation-name: intro;
+    animation-duration: 1s;
+    z-index: -1;
+}
+
+@keyframes intro {
+    0% {
+        left: 0px;
+        top: -200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.pic-div {
+    text-align: center;
+}
+
+.pic-shadow {
+    display: inline-block;
+    margin: 3rem 0rem;
+    position: relative;
+    animation-name: intro;
+    animation-duration: 1s;
+    z-index: -1;
+}
+
+@keyframes intro {
+    0% {
+        left: 0px;
+        top: -200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.pic {
+    margin: 0rem auto;
+    border-radius: 50%;
+    box-shadow: -5px 7px 50px 7px rgb(76, 76, 76);
+}
+
+/* SKILLS */
+#Skills {
+    margin: 3rem 0rem;
+    padding: 3rem;
+}
+
+.skills-heading {
+    text-align: center;
+}
+
+.skills {
+    padding: 0rem 8rem 0rem 12rem;
+}
+
+.skill-div {
+    margin: 3rem 0rem;
+}
+
+.skills span {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.progress {
+    box-shadow: -1px 1px 10px 1px rgb(76, 76, 76);
+}
+
+/* PROJECTS */
+#Projects {
+    margin: 3rem 0rem;
+    padding: 3rem;
+}
+
+.projects-heading {
+    text-align: center;
+}
+
+.project-con {
+    padding: 0rem 12rem;
+}
+
+.project {
+    margin: 5rem auto;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: -5px 7px 30px 7px rgb(76, 76, 76);
+    background-image: linear-gradient(145deg, rgb(232, 189, 189), rgb(176, 222, 176), rgb(181, 181, 232));
+    position: relative;
+    animation-name: skills;
+    animation-duration: 4s;
+}
+
+@keyframes skills {
+    0% {
+        left: -200px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.project img {
+    float: left;
+    margin-right: 1.5rem;
+    width: 50%;
+}
+
+/* CONTACT */
+#Contact {
+    padding: 1rem 3rem 1rem;
+    background-color: #7952b3;
+}
+
+.contact-heading {
+    text-align: center;
+    color: #ffffff;
+}
+
+.links-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem auto 0rem;
+    width: 50%;
+}
+
+.link-item {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.link-a {
+    text-decoration: none;
+    color: white;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+#Projects img{
+    height: 180px;
+    width:350px;
+}
